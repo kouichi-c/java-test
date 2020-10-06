@@ -3,8 +3,8 @@ package demo;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world");
-
+		double d = Math.random();
+		String result = Gacha.gacha(d);
+		System.out.println(result);
 	}
-
 }
